@@ -4,47 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock/Paper/Scissors</title>
+    <title>Rock, Paper, Scissors!</title>
     <link rel="stylesheet" href="styles.css">
-
+    
 </head>
 <body>
     <header>
-        <h1>ROCK/PAPER/SCISSORS</h1>
-        <p>In the final battle of the Humans vs. The Computers, 
-        the winner will be decided in a game of Rock, Paper, Scissors!
-        </p>
+        <h1>Rock, Paper, Scissors... Shoot!!</h1>
+        <p>As Computers start to take over the world you must save mankind, by deafeating the computers in a classic game of Rock, Paper, Scissors!!! First to 5 wins, Humanity rests on your shoulders soilder</p>
     </header>
-    <section class="container">
-        <div class="player" id="human">
-            <h1>Human</h1>
-            <h2 id="human-score">Score: </h2>
-            <div id="human-choice">Human Choice:</div>
-            <div clas="container-two">
-                <button class="btns"id="rock">Rock</button>
-                <button class="btns"id="paper">Paper</button>
-                <button class="btns"id="scissors">Scissors</button>
-            </div>
-        </div>
-        <div class="player" id="computer">
-            <h1>Computer</h1>
-            <h2 id="computer-score">Score: </h2>
+   
+    <div class="container">
+        <section class="player">
+            <h2 class="human">Human: 0</h2>
+                <button class="options">Rock</button>
+                <button class="options">Paper</button>
+                <button class="options">Scissors</button>
+        
+        </section>
+        <section class="player">
+            <h2 class="computer">Computer: 0</h2>
+            <p class="compChoice">Choice: </p>
+        </section>
+    </div>
 
-            <div clas="container-two">
-                <div id="computer-choice">Computer Choice: </div>
-            </div>
+    <div class="container-2">
+        <div class="results">
+            <h2 class="round">Round: </h2>
+            <h2 class="winner">Result: </h2>
         </div>
-    </section>
+    </div>
 
-    <section class="container">
-        <div class="result">
-            <h1>Result</h1>
-            <h2 id="final">Hey</h2>
-            
-            <div><button class="btns"id="reset">Reset</button></div>
-        </div>
-
-    </section>
+    <script type="text/javascript" src="app.js"></script>
 </body>
-<script src="app.js"></script>
+
 </html>
